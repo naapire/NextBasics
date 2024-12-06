@@ -8,7 +8,7 @@ export default function Home() {
 
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
-    push(`/Prediction/${value}`);
+    push(`/prediction/${value}`);
   };
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
